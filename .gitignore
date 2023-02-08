@@ -2,3 +2,4 @@
 !.git*
 !nvim/
 !nvim/**
+!README.md
