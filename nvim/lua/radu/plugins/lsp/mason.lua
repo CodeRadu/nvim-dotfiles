@@ -20,7 +20,8 @@ mason_lspconfig.setup({
    "tsserver",
     "html",
     "cssls",
-    "tailwindcss"
+    "tailwindcss",
+    "prismals"
   },
   automatic_installation = true
 })
