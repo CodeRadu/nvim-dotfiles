@@ -17,11 +17,12 @@ end
 
 mason_lspconfig.setup({
  ensure_installed = {
-   "tsserver",
+    "tsserver",
     "html",
     "cssls",
     "tailwindcss",
-    "prismals"
+    "prismals",
+    "marksman"
   },
   automatic_installation = true
 })
