@@ -66,8 +66,4 @@ return packer.startup(function(use)
   if packer_bootstrap then
     require("packer").sync()
   end
-  use({
-    "nvim-telescope/telescope-fzf-native.nvim",
-    run = 'make'
-  })
 end)
